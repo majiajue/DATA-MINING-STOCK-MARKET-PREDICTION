@@ -1,8 +1,7 @@
 import datetime as dt
 
 
-class Timer():
-
+class Timer:
     def __init__(self):
         self.start_dt = None
 
@@ -11,4 +10,4 @@ class Timer():
 
     def stop(self):
         end_dt = dt.datetime.now()
-        print('Time taken: %s' % (end_dt - self.start_dt))
+        print("Time taken: %s" % (end_dt - self.start_dt))
